@@ -104,5 +104,3 @@ sudo chmod 777 /var/www/html
 *B.Tech CSE (Class of 2026) | Intern*
 
 This cloud architecture and deployment pipeline was engineered as part of the **SmartInternz** guided project curriculum, designed to establish practical proficiency in modern cloud engineering and server management.
-
-```
