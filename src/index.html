@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduBridge | Technology & Learning</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Edu<span>Bridge</span></div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Programs</a></li>
+            <li><a href="#">Infrastructure</a></li>
+            <li><a href="#" class="btn-portal">Secure Portal</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero-section">
+        <div class="hero-content">
+            <span class="badge" id="server-status">Connecting to EC2...</span>
+            <h1>Bridging the Gap in <span class="gradient-text">Modern Tech</span></h1>
+            <p>Welcome to the EduBridge cloud environment. This infrastructure is currently being served live from an Amazon EC2 instance.</p>
+            <div class="action-buttons">
+                <button class="btn-primary" onclick="showAlert()">Explore Curriculum</button>
+                <button class="btn-secondary">System Architecture</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="feature-card">
+            <div class="icon">☁️</div>
+            <h3>Cloud Infrastructure</h3>
+            <p>Deployed on highly available AWS infrastructure, ensuring scalable and secure access to all portal resources.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">⚡</div>
+            <h3>Real-Time Processing</h3>
+            <p>Optimized backend synchronization delivering sub-second response times for complex data queries.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">🔒</div>
+            <h3>Secure VPC Routing</h3>
+            <p>Encapsulated within a strict Virtual Private Cloud environment, maintaining rigorous enterprise security standards.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
